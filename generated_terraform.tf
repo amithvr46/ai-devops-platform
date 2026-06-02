@@ -1,5 +1,5 @@
 # Auto-generated Terraform by AI DevOps Platform
-# Description: Create an AKS cluster with a VNet
+# Description: Create an AKS cluster with Key Vault
 # (Mock response — add API credits for live Claude generation)
 
 terraform {

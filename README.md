@@ -1,8 +1,7 @@
 # AI DevOps Platform 🤖
 
 > 5 AI-powered tools that plug into a real DevOps pipeline using Claude API.
-> Built by [Amith Busireddy](https://linkedin.com/in/busireddy-amith-761311181) —
-> Cloud DevOps Engineer at Wells Fargo, Fidelity, AT&T, Comcast.
+> Built by [Amith Busireddy](https://linkedin.com/in/busireddy-amith-761311181) 
 
 ---
 
