@@ -9,7 +9,7 @@ def review_terraform_code(terraform_code):
             client = anthropic.Anthropic(api_key=api_key)
             prompt = "You are a senior DevOps engineer. Review this Terraform code for security issues, misconfigs, missing tags, and best practices.\n\nFormat response as:\n## AI Terraform Review\n### Critical Issues\n### Warnings\n### Passed Checks\n### Recommendations\n\nCode:\n" + terraform_code
             message = client.messages.create(
-                model="claude-sonnet-4-20250514",
+                model="claude-sonnet-4-5",
                 max_tokens=1024,
                 messages=[{"role": "user", "content": prompt}]
             )
