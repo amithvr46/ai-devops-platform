@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# API Keys - NEVER commit these
+.env
+*.env
+secrets.txt
+api_keys.txt
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
